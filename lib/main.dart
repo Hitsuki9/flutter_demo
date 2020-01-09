@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:fiora_flutter/utils/socket.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Socket();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
